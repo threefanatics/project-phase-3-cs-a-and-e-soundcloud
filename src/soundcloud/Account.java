@@ -25,5 +25,12 @@ public class Account
         this.mobile_number = mobile_number;
         this.password = password;
     }
-    
+    public void requestUser(int id)
+    {
+        
+    }
+    public void changeAccountPassword(User u, String pass)
+    {
+        
+    }
 }
