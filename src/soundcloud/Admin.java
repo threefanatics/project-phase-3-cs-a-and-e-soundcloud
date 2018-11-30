@@ -26,4 +26,8 @@ class Admin extends Account
             Admin.admin = new Admin (name, email, mobile_number, password); 
         return admin; 
     } 
+    public void changePassword(int id, String pass)
+    {
+        this.requestUser(id);
+    }
 } 
